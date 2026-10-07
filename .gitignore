@@ -1,0 +1,62 @@
+# ===== 操作系统 =====
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+*~
+
+# ===== Office / WPS 临时与锁文件 =====
+~$*
+*.tmp
+.~lock.*#
+
+# ===== 编辑器 / IDE =====
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+
+# ===== 构建产物与依赖 =====
+node_modules/
+dist/
+build/
+out/
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# ===== 日志 =====
+*.log
+logs/
+
+# ===== 编译中间文件 =====
+*.o
+*.obj
+*.elf
+*.hex
+*.map
+*.lst
+
+# ===== 大体积二进制文件（建议改用 Git LFS）=====
+*.zip
+*.7z
+*.rar
+*.iso
+*.exe
+*.msi
+*.dmg
+
+# ===== 本地配置（可能含敏感信息）=====
+.env
+.env.local
+*.local
+secrets/
+node_modules/
+
